@@ -2,6 +2,8 @@
 
 You can find the documentation for [Milestone 0](docs/milestone0.md)
 
+You can find the documentation for [Milestone 1](docs/milestone1.md)
+
 
 
 
