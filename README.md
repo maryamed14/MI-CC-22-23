@@ -14,7 +14,7 @@ You can find the documentation for [Milestone 1](docs/milestone1.md)
 ## DESCRIPTION
 
 
-### You must have heard a lot about safe chemical ingredients and you can use them without consulting a doctor and you can include them in your daily skin care routine, or ingredients that should be present in your care products and this is a wonderful thing, but with the many products, companies and ingredients, you are confused in choosing which ingredients you should To include it in your daily routine, and this is where SKINDR comes in
+### You must have heard a lot about safe chemical ingredients and you can use them without consulting a doctor and you can include them in your daily skin care routine, or ingredients that should be present in your care products and this is a wonderful thing, but with the many products, companies and ingredients, you are confused in choosing which ingredients you should To include it in your daily routine, and this is where SKINDR comes in :
 
 
 #### SKINDR (SKIN CARE DAILY ROUTINE) Helps you depending on your skin type and your main problem to know the most suitable daily routine products
