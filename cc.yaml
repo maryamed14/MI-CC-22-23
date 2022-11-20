@@ -1,0 +1,10 @@
+entidad:
+  -.py
+  - .py
+  - .py
+lenguaje: Python3.11
+test:
+  - tests/.py
+  - tests/.py
+fichero_tareas: tasks.py
+make: invoke
