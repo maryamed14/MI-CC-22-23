@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from skincare.views import issue_search, skin_issues
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', issue_search),
+    path('skin-issues/', skin_issues, name='skin_issues')
 ]
