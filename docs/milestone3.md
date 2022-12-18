@@ -27,3 +27,46 @@
 
 <img src= "https://github.com/maryamed14/MI-CC-22-23/blob/main/docs/imges/run%20docker%20im.png">
 
+
+
+# publish on docker hub registry
+
+<img src= "https://github.com/maryamed14/MI-CC-22-23/blob/main/docs/imges/dochub.png">
+
+
+
+
+
+
+
+
+<img src= "https://github.com/maryamed14/MI-CC-22-23/blob/main/docs/imges/loginhub.png">
+
+
+
+
+
+
+
+
+
+<img src= "https://github.com/maryamed14/MI-CC-22-23/blob/main/docs/imges/push%20image.png">
+
+
+
+
+
+
+
+
+<img src= "https://github.com/maryamed14/MI-CC-22-23/blob/main/docs/imges/pushtohub.png">
+
+
+
+
+
+
+
+
+
+
