@@ -7,7 +7,7 @@ from .views import PersonViewSet
 #router = DefaultRouter(trailing_slash=False)
 
 router = routers.DefaultRouter()
-router.register(r'skincare', views.PersonViewSet)
+router.register(r'person', views.PersonViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
