@@ -15,10 +15,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from skincare.views import issue_search, skin_issues
+from django.conf.urls import include
+from skincare.views import issue_search, skin_issues, Person
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', issue_search),
-    path('skin-issues/', skin_issues, name='skin_issues')
+    path('skin-issues/', skin_issues, name='skin_issues'),
+    path('api-auth/', include('rest_framework.urls')),
+    #path('api/', include('skincare.urls')),
+    #path('api/people', include('skincare.urls')),
+    path("", include("skincare.urls")),
+
+
+
+
 ]

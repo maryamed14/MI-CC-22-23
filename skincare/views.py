@@ -2,6 +2,9 @@ from django.shortcuts import render
 from .models import Issue
 from django.http import JsonResponse
 from django.core import serializers
+from rest_framework import viewsets
+from .models import Person
+from .Serializers import PersonSerializer
 import json
 # Create your views here.
 
@@ -25,3 +28,8 @@ def skin_issues(request):
     issues = Issue.objects.filter(skin_type=skin_type)
     data = serializers.serialize('json', issues, fields=('name', 'id'))
     return JsonResponse({'issuess': data})
+
+
+class PersonViewSet(viewsets.ModelViewSet):
+    queryset = Person.objects.all()
+    serializer_class = PersonSerializer
